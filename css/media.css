@@ -1,0 +1,137 @@
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+
+	.container{
+	max-width: 840px;
+	margin: 0 auto;
+	}
+  #header #touch-menu{
+		display: block;
+		padding: 40px;
+		font-weight: bold;
+		font-size: 18px;
+		color: #fff;
+	}
+
+	#header nav ul {
+		display: none;
+		text-align: center;
+	}
+
+	#header nav ul li{
+		display: block;
+		margin-left: 0;
+	}
+
+	.caption{
+		margin-top: 500px;
+	}
+
+	.content img{
+		text-align: center;
+	}
+
+	.content .items{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	.content .items .item2{
+		margin-left: 0;
+	}
+
+	.content .items .item4{
+		margin-right: 0;
+	}
+
+	.main .photo-item{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	.main .photo-item{
+         text-align: center;
+	}
+
+	.feedback{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	.feedback .item6{
+		text-align: center;
+	}
+
+	.form{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	.form .input button{
+		margin-bottom: 50px;
+	}
+
+	.form .input input {
+        width: 400px;
+    }
+
+	.form .about{
+		text-align: center;
+	}
+
+	.form .socials{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+	}
+
+	.focus button{
+		display: none;
+	}
+
+	.video .video-overlay{
+        margin-top: 50px;
+	}
+
+	.items{
+		text-align: center;
+	}
+
+  	
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+    .form .input input {
+    width: 300px;
+    }
+
+    .caption{
+    	margin-top: 400px;
+    }
+}
